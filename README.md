@@ -15,7 +15,6 @@ The **allowed movements** are:
 * **Rotate:** `ra`, `rb`, `rr`
 * **Reverse Rotate:** `rra`, `rrb`, `rrr`
 ![Workflow](assets/push_swap_visualizer.gif)
-
 ><i> Note: If you are performing this project and I suggest you to use this [Push_Swap visualizer Tool](https://codepen.io/ahkoh/full/bGWxmVz) created by another student and this [Random Number Generator](https://www.calculatorsoup.com/calculators/statistics/random-number-generator.php) </i>
 ---
 
