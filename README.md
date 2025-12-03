@@ -31,9 +31,8 @@ The detailed steps followed for this implementation are based on the guidance pr
 
 Most of the time, this **Turk algorithm** completes the task for **500 random numbers** using **under 5500 moves**, demonstrating strong performance relative to the project requirements.
 
-To verify the efficiency of the algorithm, you can run the following line in your terminal. It generates random sets of **500 numbers** (between -1000 and 1000), runs `push_swap` **50 times**, and calculates the **average** number of moves.
-
-<pre><code>N=50; S=0; for i in $(seq 1 $N); do ARG=$(seq -1000 1000 | shuf -n 500 | tr '\n' ' '); L=$(./push_swap $ARG | wc -l); echo "Test $i: $L"; S=$((S+L)); done; echo "Average: $((S/N))"</code></pre>
+To verify the efficiency of your algorithm, you can check the following tool: 
+>[Push Swap Bench](https://github.com/Edugs94/Push_Swap_Bench) 
 
 ---
 
